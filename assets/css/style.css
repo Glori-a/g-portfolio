@@ -99,7 +99,7 @@ h2 {
     align-items: center;
     flex-direction: column;
     /*background: url('../img/suppose3-da.jpg') no-repeat center center/cover;*/
-    margin-left: 300px; /* Match the sidebar width */
+    margin-left: 20%; /* Match the sidebar width */
     /*padding: 15px;
     overflow-y: auto;
     height: 100%;
