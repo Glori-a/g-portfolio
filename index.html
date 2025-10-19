@@ -359,10 +359,10 @@
         ajaxModal.addEventListener('show.bs.modal', async (event) => {
           const trigger = event.relatedTarget;
           const url = trigger?.getAttribute('data-url');
-          const title = trigger?.getAttribute('data-title') || 'Détails du projet';
+          const title = trigger?.getAttribute('data-title') || 'Details of projet';
 
-          ajaxModalLabel.textContent = 'Chargement...';
-          ajaxModalBody.innerHTML = '<div class="text-center py-4">Chargement du contenu...</div>';
+          ajaxModalLabel.textContent = 'Loading...';
+          ajaxModalBody.innerHTML = '<div class="text-center py-4">Loading...</div>';
 
           try {
             const res = await fetch(url);
